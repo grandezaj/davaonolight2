@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+
+<html ng-app="app">
+<head>
+    <title>Davao no Light!</title>
+    @System.Web.Optimization.Styles.Render("~/Content/bootstrap")
+    @System.Web.Optimization.Styles.Render("~/Content/footer")
+</head>
+<body>
+    <div class="container-fluid">
+        @RenderBody()
+    </div>
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8">
+                    <p>
+                        <b>Disclaimer</b>: This is NOT an official application by the Davao Light. So schedule might change without the knowledge of the creator.
+                        <br />
+                        Info source: <a href="http://www.davaolight.com/files/feederareacoverage_012616.pdf">Groupings</a> & <a href="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xfl1/t31.0-8/12640298_935310386546253_719227322517870370_o.jpg">Schedules</a>
+                    </p>
+                </div>
+                <div class="col-md-4" style="text-align: right">
+                    <p>
+                        By: AJ Grandeza of <a href="http://leanconsulting.ph">LEAN Consulting PH</a><br />
+                        Source code can be found <a href="https://github.com/grandezaaj/davaonolight">here</a>
+                    </p>
+
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+    @System.Web.Optimization.Scripts.Render("~/bundles/jquery")
+    @System.Web.Optimization.Scripts.Render("~/bundles/angularjs")
+    @System.Web.Optimization.Scripts.Render("~/bundles/uiRouter")
+    @System.Web.Optimization.Scripts.Render("~/bundles/bootstrap")
+    @System.Web.Optimization.Scripts.Render("~/bundles/uibootstrap")
+    @System.Web.Optimization.Scripts.Render("~/bundles/app")
+</body>
+</html>
